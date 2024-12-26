@@ -5,7 +5,7 @@ import { state } from './model/state.js';
 
 
 const app = express();
-app.get('/', (req)=>{
+app.get('/', (req, res)=>{
     res.json({ message: 'Server Working!'});
 });
 
